@@ -1,0 +1,41 @@
+/* Color and space at the body of the WebSite */ 
+body{
+	background-color: #4a3324;
+	padding: 2em;
+}
+/* style for the container with class title */
+.title{
+	border-top: 2px dashed gray; /* dashed is type of border top*/
+	border-right: 2px dashed gray; /* dashed is type of border right */
+	color: #e6b392;
+	font-family: 'Indie Flower',sans-serif;
+	text-align: center;
+}
+/* Image of the warcraft with float left */
+.hordelogo{
+	width: 100px;
+	float: left;
+}
+/* Garrosh image center */
+.garroshcenter{
+	text-align: center;
+}
+/* Delete undenline of '<a></a>' tag */
+a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+}
+/* Effect Mouse Move in the '<a></a>' tag */
+a:hover{
+	padding: 2px;
+	font-size: 21px;
+	color: #5353ce;
+}
+/* Content */
+.description{
+	color: #e2cfc2;
+	font-family: 'Indie Flower', cursive, sans-serif;
+	padding: 2em; /* Space between title and this */
+	text-align: justify; /* type of align */
+}
